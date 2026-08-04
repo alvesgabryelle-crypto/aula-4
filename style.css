@@ -1,1 +1,78 @@
+body {
+    max-width: 100vw;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fcf5f0;
+}
 
+header {
+    background-color: #d9531e; /* Laranja escuro (Cor principal) */
+    color: #000000;            /* Preto (Cor secundária) */
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+main {
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    border: 2px solid #000000; /* Preto nos detalhes */
+    background-color: #ffffff;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 40%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.artigo-autor {
+    font-weight: bold;
+    color: #d9531e; /* Laranja escuro */
+}
+
+.artigo-fonte {
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+button {
+    background: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 4px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+button:hover {
+    background-color: #d9531e;
+    color: #ffffff;
+}
